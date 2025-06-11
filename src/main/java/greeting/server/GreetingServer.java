@@ -12,7 +12,7 @@ public class GreetingServer {
 
         Server server = ServerBuilder.forPort(port)
                 .addService(new GreetingServerImpl())
-                .build();
+                .build(); 
 
         server.start();
         System.out.println("Server Started");
