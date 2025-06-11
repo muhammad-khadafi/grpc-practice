@@ -15,7 +15,7 @@ public class GreetingServer {
                 .build(); 
 
         server.start();
-        System.out.println("Server Started");
+        System.out.println("Server Started"); 
         System.out.println("Listening on port: " + port);
 
         Runtime.getRuntime().addShutdownHook(new Thread(() -> {
