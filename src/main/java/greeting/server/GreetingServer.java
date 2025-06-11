@@ -14,7 +14,7 @@ public class GreetingServer {
                 .addService(new GreetingServerImpl())
                 .build(); 
 
-        server.start();
+        server.start(); 
         System.out.println("Server Started"); 
         System.out.println("Listening on port: " + port);
 
